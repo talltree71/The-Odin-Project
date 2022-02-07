@@ -1,0 +1,179 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin:0px auto;
+    
+}
+
+/* header parts */
+.header {
+    display: flex;
+    background-color: #1f2937;
+    align-items: center;
+    padding: 10px 100px;
+    margin: 0px;
+}
+
+.header .logo {
+    color: white;
+}
+
+.header ul {
+    display: flex;
+    color: white;
+    list-style-type: none;
+    gap: 20px;
+    margin-left: auto;
+}
+
+/* top body parts */
+.top-body {
+    display: flex;
+    background-color: #1f2937;
+    gap: 40px;
+    padding: 50px 100px;
+    justify-content: center;
+}
+
+.top-body .container {
+    display: flex;
+    gap: 50px;
+    
+}
+.top-body .left {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    gap: 10px;
+}
+
+.top-body .signUp-button {
+    background-color: #3882f6;
+    color: white;
+    border-radius: 7px;
+    border: none;
+    padding: 5px 20px;
+}
+
+.top-body .main-text {
+    font-size: 48px;
+    font-weight: 800;
+
+}
+
+.top-body .sec-text {
+    font-size: 18px;
+    font-weight:200;
+    color: #f9faf8;
+}
+
+.top-body .image {
+    border: 1px solid white;
+    margin-left: auto;
+    width: 400px;
+    height: 200px;
+}
+
+/* information body parts */
+.info-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-body .main-text {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    padding: 40px 0px;
+}
+
+.info-body .image {
+    border: 1px solid black;
+    width: 120px;
+    height: 120px;
+}
+
+.info-body .item-group {
+    display: flex;
+    gap: 40px;
+    margin: auto;
+    padding-bottom: 100px;
+}
+
+.info-body .item {
+    text-align-last: center;
+}
+
+.info-body .text {
+    width: 120px;
+    font-size: 12px;
+}
+
+
+/* quote body parts */
+.quote-body {
+    background-color: #e5e7eb;
+}
+
+.quote-body .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:auto;
+    max-width: 600px;
+    padding: 100px 0px;
+}
+
+.quote-body .quote {
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 200;
+    color: #475e80;
+}
+
+.quote-body .quote-by {
+    margin-left: auto;
+    font-weight: 700;
+}
+
+/* bottom body part */
+.bottom-body {
+    display: flex;
+    justify-content: center;
+    padding: 70px 0px;
+}
+
+.bottom-body .sign-up {
+    background-color: #3882f6;
+    color: white;
+    padding: 30px 50px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 130px;
+}
+
+.bottom-body .title {
+    font-weight: 800;
+}
+
+.bottom-body .text {
+    font-size: 13px;
+    font-weight:200;
+}
+
+.bottom-body button {
+    background-color: #3882f6;
+    color: white;
+    border-radius: 7px;
+    border: 1px solid rgb(211, 211, 211);
+    padding: 5px 20px;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    margin-bottom: 0;
+}

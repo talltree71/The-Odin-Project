@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Links</title>
+        <meta charset="UTF-8">
+        <style>
+            #subsection .list {
+                background-color: yellow;
+                color: blue;
+            }
+
+            #subsection .main .list {
+                color: red;
+            }
+
+            #subsection {
+                color:green;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1>Links</h1>
+        <p>This example is about links and <a href='images.html'>images.</a></p>
+
+        <div id="subsection">
+            <div class="main">
+            <div class="list">
+                <p id="subsection2">This particular page is about links! There are three kinds of links:</p>
+            </div>
+        </div>
+        </div>        
+        <ul>
+            <!---Add <li> elements here-->
+            <li>Absolute links, like to <a href='https://developer.mozilla.org/en-US/docs/Web/HTML' target='_blank'>Mozilla 
+                Developer Network</a>, which is a very good resource for web developers.</li>
+            <li>Relative links, like to our <a href='misc/extras.html'>extras page</a>.</li>
+        </ul>
+    </body>
+</html>
